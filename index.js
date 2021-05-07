@@ -9,5 +9,6 @@ import demoReducer from './hooksIntro/useReducer/demoReducer';
 import demoState from './hooksIntro/useReducer/demoState';
 import demoApp from './hooksIntro/Custom_useState/demoApp';
 import demoEffect from './hooksIntro/useEffect/demoEffect';
+import demoRef from './hooksIntro/useRef/demoRef';
 
-AppRegistry.registerComponent(appName, () => demoEffect);
+AppRegistry.registerComponent(appName, () => demoRef);
